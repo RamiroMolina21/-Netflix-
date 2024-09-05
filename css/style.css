@@ -19,7 +19,7 @@ body {
     width: 50%;
     justify-content: end;
     margin-right: 40px;
-    align-items: end;
+    align-items: center;
     /* background-color: blanchedalmond; */
 }
 
@@ -28,4 +28,13 @@ nav>a, .divRight>a{
     font-size: 20px;
     text-decoration: none;
     margin-right: 20px;
+}
+
+.divFondoImagen{
+    background-image: url("../recursos/imagenes/prison_break.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
 }
